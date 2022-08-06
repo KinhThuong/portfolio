@@ -9,7 +9,7 @@ import {
 } from '@chakra-ui/react';
 const NotFound=() => {
     return (
-        <Container position="fixed" left="10%" right="15git init%" transform="translate(10%,120%)">
+        <Container position="fixed" left="10%" right="15%" transform="translate(10%,120%)">
             <Heading>Không có gì cả</Heading>
             <Text>
                 Ở đây không có cái gì đâu, chả biết nhét gì vào ;-;

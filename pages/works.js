@@ -4,6 +4,7 @@ import { WorkGridItem } from "../components/grid-item"
 import information from "./images/info.png"
 import portfolio from "./images/porfolio.png"
 import Layout from '../components/layout/article'
+import magic from "./images/magic.png"
 
 const Works = () => {
     return (
@@ -21,6 +22,11 @@ const Works = () => {
                     <Section>
                         <WorkGridItem href="/" title="Sơ yếu lí lịch" thumbnail={portfolio}>
                             Một trang web về tất cả thông tin của mình bao gồm lí lịch, sở thích và các bài tập.
+                        </WorkGridItem>
+                    </Section>
+                    <Section>
+                        <WorkGridItem href="https://kinhthuong.github.io/the-magic/" title="Ma thuật" thumbnail={magic}>
+                            Một trang web có ma thuật mang tên Winx Enchantix.
                         </WorkGridItem>
                     </Section>
                 </SimpleGrid>
