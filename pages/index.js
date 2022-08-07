@@ -35,7 +35,7 @@ const Page = () => {
                     <Paragraph>
                         Cút hiện tại là 1 học sinh cấp 3 và có đam mê với code khá sớm, hiện tại bây giờ đang cố gắng để vào được đại học.
                         Ước mơ của mình là sau này có thể làm những thứ mình thích như vẽ tranh, đọc sách, đánh đàn, học thêm về nhiều thứ mình thích. Đây là thông tin trên mxh của mình của mình {' '}
-                        <Link href="http://quatrungcut.000webhostapp.com/">
+                        <Link href="https://kinhthuong.github.io/biolink2//">
                             <Link>Infomation</Link>
                         </Link>
                     </Paragraph>
