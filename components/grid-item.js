@@ -2,6 +2,7 @@ import NextLink from 'next/link'
 import Image from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 import { Global } from '@emotion/react'
+import ReactPlayer from 'react-player'
 
 export const GridItem = (children, href, title, thumbnail) => {
     <Box w="100%" align="center">
@@ -12,7 +13,7 @@ export const GridItem = (children, href, title, thumbnail) => {
                 placeholder="blur"
                 blurDataURL={`data:image/svg+xml;base64,${toBase64(
                     convertImage(700, 475)
-                  )}`}
+                )}`}
                 loading="lazy" />
             <LinkOverlay href={href} target="_blank">
                 <Text mt={2}>{title}</Text>

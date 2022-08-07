@@ -1,6 +1,6 @@
 import { Container, Heading, SimpleGrid, Divide, Link } from "@chakra-ui/react"
 import Section from "../components/section"
-import { WorkGridItem } from "../components/grid-item"
+import { WorkGridItem,WorkGridItemVideo } from "../components/grid-item"
 import information from "./images/info.png"
 import portfolio from "./images/porfolio.png"
 import Layout from '../components/layout/article'
