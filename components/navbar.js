@@ -76,7 +76,7 @@ const Navbar = props => {
                         <Menu>
                             <MenuButton as={IconButton} icon={<HamburgerIcon />} variant="outline" aria-label="Options" />
                             <MenuList>
-                                <NextLink href='http://quatrungcut.000webhostapp.com/' passHref>
+                                <NextLink href='https://kinhthuong.github.io/biolink2/' passHref>
                                     <MenuItem as={Link}>About</MenuItem>
                                 </NextLink>
                                 <NextLink href='/works' passHref>
