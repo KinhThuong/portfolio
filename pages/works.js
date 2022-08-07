@@ -15,7 +15,7 @@ const Works = () => {
                 </Heading>
                 <SimpleGrid columns={[1, 1, 2]} gap={6}>
                     <Section>
-                        <WorkGridItem href="http://quatrungcut.000webhostapp.com/" title="Thông tin" thumbnail={information}>
+                        <WorkGridItem href="https://kinhthuong.github.io/biolink2/" title="Thông tin" thumbnail={information}>
                             Một trang web về thông tin trên mxh của mình.
                         </WorkGridItem>
                     </Section>
